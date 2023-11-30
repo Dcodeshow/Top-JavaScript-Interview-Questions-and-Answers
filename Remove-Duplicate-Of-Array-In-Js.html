@@ -2,6 +2,16 @@
 <html lang="en">
   <head> </head>
   <body>
-    <script></script>
+    <script>
+      //Remove-Duplicate-Of-Array-In-Js
+      let arr = [1, 2, 2, 3, 4, 4, 5, 6, 6, 7, 8, 8, 9];
+      let newarr = [];
+      arr.forEach((val) => {
+        if (!newarr.includes(val)) {
+          newarr.push(val);
+        }
+      });
+      console.log(newarr);
+    </script>
   </body>
 </html>
